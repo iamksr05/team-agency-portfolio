@@ -1,0 +1,40 @@
+@media (max-width: 1100px) {
+    .team-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 70px 0;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+    }
+
+    .team-grid,
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .nav-container {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-content {
+        flex-direction: column;
+        gap: 14px;
+    }
+}
